@@ -1,4 +1,3 @@
-
 class ShoppingList
   attr_reader :recipe_name
 
@@ -9,7 +8,7 @@ class ShoppingList
   def get_shopping_list
     puts "Here's the recipe for breakfast: #{recipe_name}"
     print "Here's your shopping list: "
-    puts Recipe.get_ingredients.join(', ')
+    puts Recipe.get_ingredients.join(", ")
   end
 end
 
