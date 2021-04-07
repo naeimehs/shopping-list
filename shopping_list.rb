@@ -1,3 +1,12 @@
+# == BACKLOG ==
+# Recipe instances
+# Recipe should know its name and its ingredients
+# Rename #get_ingredients to #ingredients
+# Rename #get_shopping_list to #display_shopping_list
+# How are we going to handle multiple recipes
+# Put the recipes in the database
+# Array constant for recipes
+
 class ShoppingList
   attr_reader :recipe_name
 
